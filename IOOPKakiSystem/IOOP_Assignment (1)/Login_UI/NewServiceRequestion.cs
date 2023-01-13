@@ -246,6 +246,7 @@ namespace Login_UI
             }
             else
             {
+                //alert username not found
                 MessageBox.Show("Customer username not found. Please try again.");
                 count += 1;
             }
