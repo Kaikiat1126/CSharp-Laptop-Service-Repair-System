@@ -23,6 +23,7 @@ namespace Login_UI
         public int MonthDigitaliser()
         {
             MonthNum = 0;
+            //Date Array
             string[] MonthRepo = { "January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "Disember" };
             int count;
             for (count = 1; count < 13; count++)
